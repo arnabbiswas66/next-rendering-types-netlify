@@ -1,0 +1,17 @@
+{
+  "name": "next-on-netlify-demo",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "postbuild": "next-on-netlify"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^4.40.1",
+    "next": "^13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "buffer-loader": "^0.1.0"
+  }
+}
