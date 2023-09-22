@@ -2,8 +2,7 @@
   "name": "next-on-netlify-demo",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "postbuild": "next-on-netlify"
+    "build": "next build"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.40.1",
